@@ -1,2 +1,2 @@
-# Programa-o-lll---GerAposta
+# Prog lll -- GereAposta
 Gerenciador de aposta esportiva
