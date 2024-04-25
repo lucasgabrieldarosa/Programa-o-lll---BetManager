@@ -1,2 +1,2 @@
-# Prog lll -- GereAposta
+# Prog lll -- BetManager
 Gerenciador de aposta esportiva
