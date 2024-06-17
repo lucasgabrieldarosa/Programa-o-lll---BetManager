@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Histórico de Apostas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Histórico de Apostas</h1>
+
+  <!-- Filtros de data -->
+  <div class="filters">
+    <label for="date-filter">Filtrar por:</label>
+    <select id="date-filter">
+      <option value="daily">Diário</option>
+      <option value="weekly">Semanal</option>
+      <option value="monthly">Mensal</option>
+    </select>
+    <button id="searchButton">Pesquisar</button>
+  </div>
+
+  <!-- Tabela de histórico de apostas -->
+  <table id="bet-history">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Time 1</th>
+        <th>Time 2</th>
+        <th>Odd</th>
+        <th>Quantia</th>
+        <th>Tipo de Aposta</th>
+        <th>Resultado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Linhas de histórico de apostas serão preenchidas dinamicamente com JavaScript -->
+    </tbody>
+  </table>
+  <script src="../js/historico.js"></script>
+
+
+
+</body>
+</html>

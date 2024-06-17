@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: rgb(23, 138, 184); /* Cor de fundo azul clara */
+}
+
+h1, h2 {
+  color: #000;
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto; /* Centraliza o formulário */
+  max-width: 400px; /* Define a largura máxima do formulário */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.message {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0;
+}
+
+#index-body {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh;
+  background-color: lightblue; /* Adiciona cor de fundo azul claro */
+  margin: 0; /* Remove margem padrão */
+}
+
+#welcome-message {
+  color: black;
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
